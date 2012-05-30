@@ -10,12 +10,13 @@
 body {
 	font-size:14px;
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-	background-color: rgb(255,255,255);
+	background-color: #ffffff;
 }
 
 
 h1 {
-
+	margin-top: 1.4em;
+	margin-bottom: 1.4em;
 }
 
 h2 {
@@ -30,9 +31,10 @@ a {
 	text-decoration:none;
 }
 
-p{
-
-
+p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	line-height:1.4em;
 }
 
 #leftcol p, #rightcol p{
@@ -62,6 +64,11 @@ p{
 #rightcol img, #rightcol button {
 	margin: 20px auto;
 	display:block;
+}
+
+#main {
+	padding:20px;
+	width:940;
 }
 
 #footer{
@@ -95,6 +102,11 @@ p{
 
 	margin:40px 0;
 }
+.button_center {
+
+	width: 100%;
+	text-align: center;
+}
 
 .cta_button {
 	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
@@ -117,13 +129,23 @@ p{
 	text-decoration:none;
 	text-shadow:1px 1px 0px #336699;
 	height: 54px;
-	width: 210px;
+	
 }.cta_button:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0055cc), color-stop(1, #468ccf) );
 	background:-moz-linear-gradient( center top, #0055cc 5%, #468ccf 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0055cc', endColorstr='#468ccf');
 	background-color:#0055cc;
+	cursor: pointer;
 }.cta_button:active {
 	position:relative;
 	top:1px;
+}
+
+.signup_button{
+	width:10em;
+}
+
+.download_button{
+	width: 12em;
+	margin-top: 2em;
 }
