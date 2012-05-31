@@ -1,4 +1,6 @@
-# css file for seenbefore.com
+/* css file for seenbefore.com  */
+
+@import url("forms.css");
 
 * {
 	margin: 0px;
@@ -35,6 +37,13 @@ p {
 	margin-top: 1em;
 	margin-bottom: 1em;
 	line-height:1.4em;
+}
+
+label {
+	font-size: 1em;
+	line-height: 1.2em;
+	margin-top: 1em;
+	display:block;
 }
 
 #leftcol p, #rightcol p{
@@ -149,3 +158,22 @@ p {
 	width: 12em;
 	margin-top: 2em;
 }
+
+.create_button {
+
+	margin-top: 40px;
+}
+
+
+.help-inline {
+
+	color:#990000;
+}
+
+.help-block {
+	display:block;
+	line-height:1.4em;
+}
+
+
+
