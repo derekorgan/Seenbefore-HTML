@@ -1,0 +1,217 @@
+/* css file for seenbefore.com  */
+
+@import url("forms.css");
+
+* {
+	margin: 0px;
+	padding: 0px;
+
+
+}
+
+body {
+	font-size:14px;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color: #ffffff;
+}
+
+
+h1 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+a {
+	text-decoration:none;
+}
+
+p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	line-height:1.4em;
+}
+
+label {
+	font-size: 1em;
+	line-height: 1.2em;
+	margin-top: 1em;
+	display:block;
+}
+
+#leftcol p, #rightcol p{
+	line-height:1.4em;
+	font-size:1.4em;
+}
+
+#header{
+	height: 47px !important;
+	margin: 0 0 30px;
+	padding: 0;
+	line-height: 45px;
+	width: 100% !important;
+	background: #111;
+
+	-webkit-box-shadow: rgba(0, 0, 0, 0.0976562) 0px 5px 5px;
+	-moz-box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px;
+	box-shadow: rgba(0, 0, 0, 0.0976562) 0px 5px 5px;
+	border-bottom: 3px solid #0055cc;
+}
+
+#container {
+	margin: 0 auto;
+	width: 980px;
+	padding: 0 0;
+}
+
+#leftcol {
+	float:left;
+	width:450px;
+	padding:20px;
+}
+
+#rightcol{
+	float:left;
+	width:450px;
+	padding:20px;
+}
+
+#rightcol img, #rightcol button {
+	margin: 20px auto;
+	display:block;
+}
+
+#main {
+	padding:20px;
+	width:940;
+}
+
+#footer{
+	clear:both;
+	margin-top:20px;
+	width:100%;
+	text-align:center;
+	border-top: 1px solid #e2e2e2;
+	padding: 20px;
+}
+
+#footer ul{
+	display:inline;
+}
+
+#footer ul li{
+	display:inline;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.clear {
+	clear: both;
+}
+
+.login {
+	line-height:40px;
+	width:100%;
+	text-align:right;
+}
+
+.content_block {
+
+	margin:40px 0;
+}
+.button_center {
+
+	width: 100%;
+	text-align: center;
+}
+
+.cta_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0077cc), color-stop(1, #0055cc) );
+	background:-moz-linear-gradient( center top, #0077cc 5%, #0055cc 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0077cc', endColorstr='#0055cc');
+	background-color:#0077cc;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #336699;
+	height: 54px;
+	
+}.cta_button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0055cc), color-stop(1, #468ccf) );
+	background:-moz-linear-gradient( center top, #0055cc 5%, #468ccf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0055cc', endColorstr='#468ccf');
+	background-color:#0055cc;
+	cursor: pointer;
+}.cta_button:active {
+	position:relative;
+	top:1px;
+}
+
+.signup_button{
+	width:10em;
+}
+
+.download_button{
+	width: 12em;
+	margin-top: 2em;
+}
+
+.create_button {
+
+	margin-top: 40px;
+}
+
+/* Alerts, Messages and Info boxes */
+/* set messages with two classes message and the type of message e.g. alert */
+
+.message {
+	color: #ffffff;
+	padding:20px;
+	width:100%;
+
+}
+
+.message a{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.alert {
+	background-color: #c07a54;
+
+}
+
+.success {
+	background-color: #7ac054;
+}
+
+.info {
+	background-color: #547ac0;
+	
+}
+
+
+
+
+
+
+
+
