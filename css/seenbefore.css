@@ -51,24 +51,24 @@ label {
 	font-size:1.4em;
 }
 
-#header{
-	height: 47px !important;
-	margin: 0 0 30px;
-	padding: 0;
-	line-height: 45px;
-	width: 100% !important;
-	background: #111;
+#top {
+	height: 60px;
+	width: 100%;
+	background: #000000;
+}
 
-	-webkit-box-shadow: rgba(0, 0, 0, 0.0976562) 0px 5px 5px;
-	-moz-box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px;
-	box-shadow: rgba(0, 0, 0, 0.0976562) 0px 5px 5px;
-	border-bottom: 3px solid #0055cc;
+#header{
+	height: 60px;
+
+	width: 980px;
+	margin: 0 auto;
+
+
 }
 
 #container {
 	margin: 0 auto;
 	width: 980px;
-	padding: 0 0;
 }
 
 #leftcol {
@@ -205,7 +205,7 @@ label {
 
 .info {
 	background-color: #547ac0;
-	
+
 }
 
 
