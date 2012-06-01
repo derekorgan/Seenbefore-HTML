@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+<link href="images/favicon.ico" rel="shortcut icon" />
+<link href="css/seenbefore.css" type="text/css" rel="stylesheet" />
+
+<title>SeenBefore - Login</title>
+</head>
+
+<body>
+<div id="container">
+
+	<div id="main">
+		<h1>Login</h1>
+		<form class="sb_form signup_form" accept-charset="UTF-8" action="/user" id="new_user" method="post">
+		<label for="user_email">Email</label>
+		<div class="input">
+			<input autofocus="autofocus" id="user_email" name="user[email]" size="30" type="email" value="" />
+			<span class="help-inline required">*</span>
+		</div>
+		<label for="user_password">Password</label>
+		<div class="input">
+			<input id="user_password" name="user[password]" size="30" type="password" />
+			<span class="help-inline required">*</span>
+		</div>
+
+
+		<label class="checkbox" for="user_remember_me">
+        <input name="user[remember_me]" type="hidden" value="0" />
+        <input id="user_remember_me" name="user[remember_me]" type="checkbox" value="1" /> Remember me
+
+		<input class="cta_button create_button" name="commit" type="submit" value="Login" />
+
+		</form>
+
+		<p>New User? <a href="signup.html">Sign Up</a></p>
+		<p><a href="forgot.html">Forgot your Password</a> </p>
+
+		
+	</div>
+	<div class="clear"></div>
+	<div id="footer">
+		<ul>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">hello@seenbefore.com</a></li>
+		</ul>
+	
+	</div><!-- end footer -->
+</div><!-- end container -->
+</body>
+</html>
