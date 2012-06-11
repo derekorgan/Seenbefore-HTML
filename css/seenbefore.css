@@ -41,6 +41,7 @@ p {
 	margin-top: 1em;
 	margin-bottom: 1em;
 	line-height:1.4em;
+
 }
 
 label {
@@ -48,6 +49,14 @@ label {
 	line-height: 1.2em;
 	margin-top: 1em;
 	display:block;
+}
+
+ul {
+	margin: 1.4em;
+}
+
+li {
+	line-height:1.4em;
 }
 
 #leftcol p, #rightcol p{
@@ -62,12 +71,41 @@ label {
 }
 
 #header{
-	height: 60px;
 
 	width: 980px;
 	margin: 0 auto;
 
+}
 
+#topsmall {
+	height: 30px;
+	width: 100%;
+	background-image:url('../images/black10.png');
+	background-repeat: repeat-x;
+
+}
+
+
+#login {
+
+	width: 60px;
+	height: 14px;
+	background-color: #000000;
+	position: relative;
+	left: 845px;
+	text-align:center;
+	padding: 8px 10px;
+	font-size: .9em;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	letter-spacing:1px;
+
+}
+
+#login a {
+	color: #ffffff;
+	font-weight: bold;
 }
 
 #container {
@@ -79,12 +117,14 @@ label {
 	float:left;
 	width:450px;
 	padding:20px;
+
 }
 
 #rightcol{
 	float:left;
 	width:450px;
-	padding:20px;
+	padding:40px 20px 20px 20px;
+
 }
 
 #rightcol img, #rightcol button {
@@ -215,6 +255,10 @@ label {
 .info {
 	background-color: #547ac0;
 
+}
+
+.question_faq {
+	font-weight:bold;
 }
 
 
