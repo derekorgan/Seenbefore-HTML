@@ -6,7 +6,7 @@
 <link href="images/favicon.ico" rel="shortcut icon" />
 <link href="css/seenbefore.css" type="text/css" rel="stylesheet" />
 
-<title>SeenBefore - Sign Up</title>
+<title>SeenBefore - Login</title>
 </head>
 
 <body>
@@ -15,10 +15,10 @@
 	<div id="header"><a href="index.html"><img src="images/logo_top.png" alt="SeenBefore" /></a></div>
 </div>
 <div id="container">
-	<div class="message alert" style="display:none">Please include a valid email.</div>
+
 	<div id="main">
-		<h1>Sign Up</h1>
-		<form class="sb_form signup_form" accept-charset="UTF-8" action="install.html" id="new_user" method="post">
+		<h1>Login</h1>
+		<form class="sb_form signup_form" accept-charset="UTF-8" action="/user" id="new_user" method="post">
 		<label for="user_email">Email</label>
 		<div class="input">
 			<input autofocus="autofocus" id="user_email" name="user[email]" size="30" type="email" value="" />
@@ -28,15 +28,22 @@
 		<div class="input">
 			<input id="user_password" name="user[password]" size="30" type="password" />
 			<span class="help-inline required">*</span>
-			<span class="help-block">Password at least 8 characters long.</span>
 		</div>
 
-		<input class="cta_button create_button" name="commit" type="submit" value="Create your account" />
+
+		<label class="checkbox" for="user_remember_me">
+        <input name="user[remember_me]" type="hidden" value="0" />
+       
+        <input id="user_remember_me" name="user[remember_me]" type="checkbox" value="1" /> Remember me
+         <br />
+		<input class="cta_button create_button" name="commit" type="submit" value="Login" />
 
 		</form>
 
-		<p>Already have an account? <a href="terms.html">Log in</a> </p>
+		<p>New User? <a href="signup.html">Sign Up</a></p>
+		<p><a href="forgot.html">Forgot your Password</a> </p>
 
+		
 	</div>
 	<div class="clear"></div>
 	<div id="footer">

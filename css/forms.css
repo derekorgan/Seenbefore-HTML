@@ -3,11 +3,16 @@
 
    */
 .help-inline {
-
-	color:#990000;
+	color:#cc0000;
 }
 
 .help-block {
 	display:block;
 	line-height:1.4em;
+}
+
+.sb_form input[type="text"], .sb_form input[type="email"], .sb_form input[type="password"] {
+	line-height: 1.4em;
+	padding: 4px;
+	font-size: 1.2em;
 }
