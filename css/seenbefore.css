@@ -41,13 +41,13 @@ p {
 	margin-top: 1em;
 	margin-bottom: 1em;
 	line-height:1.4em;
-
 }
 
 label {
 	font-size: 1em;
 	line-height: 1.2em;
 	margin-top: 1em;
+	margin-bottom: 4px;
 	display:block;
 }
 
@@ -78,7 +78,7 @@ li {
 }
 
 #topsmall {
-	height: 30px;
+	height: 40px;
 	width: 100%;
 	background-image:url('../images/black10.png');
 	background-repeat: repeat-x;
@@ -142,23 +142,63 @@ li {
 	margin-top:20px;
 	width:100%;
 	text-align:center;
-	border-top: 1px solid #e2e2e2;
+	border-top: 1px solid #cccccc;
 	padding: 20px;
 	font-size:0.9em;
+	letter-spacing:.1em;
 }
 
-#footer ul{
+#footer ul, #header ul{
 	display:inline;
 }
 
-#footer ul li{
+#footer ul li, #header ul li{
 	display:inline;
-	padding-left:20px;
-	padding-right:20px;
+	padding-left:10px;
+	padding-right:10px;
+
+}
+#header ul {
+	margin-right: -10px;
 }
 
 #footer a{
 	color: #666666;
+}
+
+#header a{
+	color: #ffffff;
+	letter-spacing:.1em;
+	font-weight:bold;
+}
+
+#header a:hover {
+	text-decoration:underline;
+}
+
+#header #links{
+	width: 30%;
+	float:right;
+	text-align: right;
+	padding: 20px 0;
+}
+
+
+#tour {
+
+	width: 974px;
+	height: 496px;
+	background-image: url("../images/open-book.png");
+	margin: 20px auto 0px auto;
+
+}
+
+#tour .pageleft {
+	position: relative;
+}
+
+#tour .pageright {
+	position: relative;
 }
 
 .clear {
@@ -257,11 +297,54 @@ li {
 
 }
 
+/* styles for TOUR page */
+
+.slide {
+	position: relative;
+	left: 88px;
+	top: 54px;
+	width: 802px;
+	height: 340px;
+}
+
+.slide .leftpage {
+	float: left;
+	height:340px;
+	width:334px;
+	font-size: 20px;
+	font-family: Jura, sans-serif;
+
+}
+
+.slide .rightpage {
+	float: right;
+	height:340px;
+	width:334px;
+
+}
+
+/* --- */
+
 .question_faq {
 	font-weight:bold;
 }
 
+.development {
 
+	position: absolute;
+	top:80px;
+	left:0px;
+	width: 90px;
+	height: 20px;
+	padding:10px;
+	color: #ffffff;
+	background-color: #990000;
+	padding: 20px;
+	border-top-right-radius:6px;
+	border-bottom-right-radius:6px;
+	font-weight:bold;
+
+}
 
 
 
