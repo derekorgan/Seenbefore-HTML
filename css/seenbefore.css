@@ -255,7 +255,8 @@ li {
 }
 
 .signup_button{
-	width:10em;
+	width:100%;
+	text-align: center;
 }
 
 .download_button{
