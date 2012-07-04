@@ -114,21 +114,21 @@ li {
 	width: 980px;
 }
 
-#leftcol {
+#rightcol {
 	float:left;
 	width:450px;
 	padding:20px;
 
 }
 
-#rightcol{
+#leftcol{
 	float:left;
 	width:450px;
 	padding:20px 20px 20px 20px;
 
 }
 
-#rightcol img, #rightcol button {
+#leftcol img, #leftcol button {
 	margin: 0px auto;
 	display:block;
 }
@@ -211,7 +211,11 @@ p.tag_line {
 
 #features .feature img {
 	float: left;
-	padding: 20px;
+	padding: 20px 20px 20px 0px;
+}
+
+#features .feature.second img {
+	padding-left:20px;
 }
 
 
