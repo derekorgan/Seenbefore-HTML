@@ -16,3 +16,29 @@
 	padding: 4px;
 	font-size: 1.2em;
 }
+
+
+/*  Search   */
+#search {
+
+	margin:0px;
+	padding:0px;
+}
+
+#search input{
+
+	width: 464px;
+	height: 32px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+  	border-radius: 4px;
+  	border: 1px solid #000000;
+
+  	background-image:url('../images/sb_search_icon.png');
+  	background-repeat: no-repeat;
+  	background-position: 473px center;
+
+  	padding: 6px 40px 6px 6px;
+  	font-size: 28px;
+
+}

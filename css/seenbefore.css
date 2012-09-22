@@ -424,7 +424,28 @@ p.tag_line {
 
 } 
 
+/* --- Search  --- */
 
+.search{
+
+	text-align: center;
+}
+
+.search img {
+	margin-top:55px;
+
+}
+
+.search input{
+	margin-top:55px;
+}
+
+.search .note {
+	margin-top:5px;
+	color:#666666;
+	font-size: 12px;
+	margin-bottom: 165px;
+ }
 
 /* --- */
 
