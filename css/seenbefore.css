@@ -73,8 +73,9 @@ li {
 
 #header{
 
-	width: 980px;
+	width: 970px;
 	margin: 0 auto;
+	padding-left: 10px;
 
 }
 
@@ -453,8 +454,126 @@ p.tag_line {
 	margin-bottom: 165px;
  }
 
- 
+ #search_results {
 
+ 	width: 760px;
+ 	float:left;
+ 	padding:10px;
+ }
+
+
+#search_nav {
+
+	width: 120px;
+	padding:40px 40px 40px 20px;
+	margin-top: 40px;
+	position:fixed;
+	margin-left: 784px;
+
+}
+
+#search_nav ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+
+}
+#search_nav ul li{
+	line-height: 2em;
+
+}
+
+
+.search_result {
+	width:784px;
+	height: 116px;
+}
+
+.search_result .result {
+	width: 584px;
+	float:left;
+
+}
+
+.search_result .options {
+	width: 120px;
+	padding: 0px 40px;
+	float: left;
+
+}
+.search_result .options ul {
+	list-style: none;
+}
+
+.search_result .options ul li {
+	line-height: 2em;
+	font-size: 12px;
+}
+
+.search_result .options ul li img{
+	margin-bottom: -2px;
+}
+
+
+.search_result .options ul li img{
+	margin-right: 5px;
+}
+
+.search_result .options ul li a{
+	color: #333333;
+}
+
+
+
+#search_results h2{
+	font-size: 16px;
+	border-bottom: solid 1px #000000;
+	width: 584px;
+	margin-bottom: 20px;
+	font-weight: normal;
+
+}
+
+#search_results h3{
+	font-size: 19px;
+}
+#search_results h3 a{
+	text-decoration: underline;
+}
+
+
+
+
+#search_results h4{
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+
+
+}
+#search_results h4 img{
+	margin-bottom: -3px;
+	margin-right: 5px;
+
+}
+
+#search_results h4 span{
+	float:right;
+	
+}
+
+.search_result p {
+	font-size: 14px;
+	line-height: 1.6em;
+	margin-top: 6px;
+
+}
+
+.more {
+	width:584px;
+	text-align: right;
+	font-size: 14px;
+}
 /* --- */
 
 .question_faq {

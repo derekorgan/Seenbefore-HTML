@@ -5,14 +5,38 @@
 
 <link href="images/favicon.ico" rel="shortcut icon" />
 <link href="css/seenbefore.css" type="text/css" rel="stylesheet" />
-
+<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+  
 <title>SeenBefore - Install Plugin</title>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+	$("div.search_result").mouseover(function() {
+
+		var id = this.id;
+		var options_id = id+'o';
+		$('div#'+options_id).css("display","block");
+	});
+
+	$("div.search_result").mouseout(function() {
+		var id = this.id;
+		var options_id = id+'o';
+		$('div#'+options_id).css("display","none");
+	});
+
+
+});
+
+</script>
+
+
 </head>
 
 <body>
 
 <div id="top">
-		<form id="search"><input type="text" /></form>
 	<div id="header">
 	
 	<div id="search_head"><form id="search"><input type="text" /></form></div>
@@ -37,38 +61,133 @@
 	<p class="found">58 results found</p>
 
 	<div class="search_group">
-	<h2>Today</h2>
+	<h2 id="today">Today</h2>
 
-		<div class="search_result">
-			<h3><a href="#">Dublin Web Summit Special offer for Irish Start ups Best..</a></h3>
-			<h4>bestconnected.enterprise-ireland.com</h4>
-			<p>Dublin Web Summit Special Offer for Irish Start Ups Best ConnectedShareEmailEarn Facebook Twitter Google+ Lockerz Grab Delicious Digg Google Bookmarks..</p>
+		<div class="search_result" id="sr1">
+			<div class="result">
+				<h3><a href="#">Dublin Web Summit Special offer for Irish Start ups Best..</a></h3>
+				<h4><img src="images/worldfavicon.jpg"/>bestconnected.enterprise-ireland.com<span>4hrs ago</span></h4>
+				<p><strong>Dublin Web Summit Special</strong> Offer for Irish Start Ups Best ConnectedShareEmailEarn Facebook Twitter Google+ Lockerz Grab Delicious Digg Google Bookmarks..</p>
+			</div>
+
+			<div class="options" id="sr1o" style="display:none">
+				<ul>
+					<li><a href="#"><img src="images/cached.png" />Cached</a></li>
+					<li><a href="#"><img src="images/share.png" />Share</a></li>
+
+				</ul>
+			</div>
+			<div class="clear"></div>
 		</div>
+
 	</div>
 
 	<div class="search_group">
-	<h2>Yesterday</h2>
-		<div class="search_result">
-			<h3><a href="#">The Talented 38: Ireland's top technology and startup leaders...</a></h3>
-			<h4>bestconnected.enterprise-ireland.com</h4>
-			<p>Dublin Web Summit Special Offer for Irish Start Ups Best ConnectedShareEmailEarn Facebook Twitter Google+ Lockerz Grab Delicious Digg Google Bookmarks..</p>
+	<h2 id="yesterday">Yesterday</h2>
+		<div class="search_result" id="sr2">
+			<div class="result">
+				<h3><a href="#">The Talented 38: Ireland's top technology and startup leaders...</a></h3>
+				<h4><img src="images/worldfavicon.jpg"/>seanblanchfield.com<span>12:12am</span></h4>
+				<p><strong>Dublin Web Summit</strong> Special Offer for Irish Start Ups Best ConnectedShareEmailEarn Facebook Twitter Google+ Lockerz Grab Delicious Digg Google Bookmarks..</p>
+			</div>
+			<div class="options" id="sr2o" style="display:none">
+				<ul>
+					<li><a href="#"><img src="images/cached.png" />Cached</a></li>
+					<li><a href="#"><img src="images/share.png" />Share</a></li>
+					<li><a href="#"><img src="images/block.png" />Block</a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
 		</div>
 
-		<div class="search_result">
-			<h3><a href="#">The Talented 38: Ireland's top technology and startup leaders...</a></h3>
-			<h4>bestconnected.enterprise-ireland.com</h4>
-			<p>Dublin Web Summit Special Offer for Irish Start Ups Best ConnectedShareEmailEarn Facebook Twitter Google+ Lockerz Grab Delicious Digg Google Bookmarks..</p>
+		<div class="search_result" id="sr3">
+			<div class="result">
+				<h3><a href="#">7 best new global cities for startups Dublin (5) FORTUNE</a></h3>
+				<h4><img src="images/worldfavicon.jpg"/>money.cnn.com<span>18:15pm</span></h4>
+				<p>The annual <strong>Dublin Web Summit</strong> is one of the fastest-growing tech conferences in Europe</p>
+			</div>
+			<div class="options" id="sr3o" style="display:none">
+				<ul>
+					<li><a href="#"><img src="images/cached.png" />Cached</a></li>
+					<li><a href="#"><img src="images/share.png" />Share</a></li>
+					<li><a href="#"><img src="images/block.png" />Block</a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+			<div class="search_result" id="sr4">
+			<div class="result">
+				<h3><a href="#">The Talented 38: Ireland's top technology and startup leaders...</a></h3>
+				<h4><img src="images/worldfavicon.jpg"/>seanblanchfield.com<span>12:12am</span></h4>
+				<p><strong>Dublin Web Summit</strong> Special Offer for Irish Start Ups Best ConnectedShareEmailEarn Facebook Twitter Google+ Lockerz Grab Delicious Digg Google Bookmarks..</p>
+			</div>
+			<div class="options" id="sr4o" style="display:none">
+				<ul>
+					<li><a href="#"><img src="images/cached.png" />Cached</a></li>
+					<li><a href="#"><img src="images/share.png" />Share</a></li>
+					<li><a href="#"><img src="images/block.png" />Block</a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
 		</div>
 
-		<p>more results from yesterday</p>
+		<div class="search_result" id="sr5">
+			<div class="result">
+				<h3><a href="#">7 best new global cities for startups Dublin (5) FORTUNE</a></h3>
+				<h4><img src="images/worldfavicon.jpg"/>money.cnn.com<span>18:15pm</span></h4>
+				<p>The annual <strong>Dublin Web Summit</strong> is one of the fastest-growing tech conferences in Europe</p>
+			</div>
+			<div class="options" id="sr5o" style="display:none">
+				<ul>
+					<li><a href="#"><img src="images/cached.png" />Cached</a></li>
+					<li><a href="#"><img src="images/share.png" />Share</a></li>
+					<li><a href="#"><img src="images/block.png" />Block</a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+			<div class="search_result" id="sr6">
+			<div class="result">
+				<h3><a href="#">The Talented 38: Ireland's top technology and startup leaders...</a></h3>
+				<h4><img src="images/worldfavicon.jpg"/>seanblanchfield.com<span>12:12am</span></h4>
+				<p><strong>Dublin Web Summit</strong> Special Offer for Irish Start Ups Best ConnectedShareEmailEarn Facebook Twitter Google+ Lockerz Grab Delicious Digg Google Bookmarks..</p>
+			</div>
+			<div class="options" id="sr6o" style="display:none">
+				<ul>
+					<li><a href="#"><img src="images/cached.png" />Cached</a></li>
+					<li><a href="#"><img src="images/share.png" />Share</a></li>
+					<li><a href="#"><img src="images/block.png" />Block</a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+
+		<div class="search_result" id="sr7">
+			<div class="result">
+				<h3><a href="#">7 best new global cities for startups Dublin (5) FORTUNE</a></h3>
+				<h4><img src="images/worldfavicon.jpg"/>money.cnn.com<span>18:15pm</span></h4>
+				<p>The annual <strong>Dublin Web Summit</strong> is one of the fastest-growing tech conferences in Europe</p>
+			</div>
+			<div class="options" id="sr7o" style="display:none">
+				<ul>
+					<li><a href="#"><img src="images/cached.png" />Cached</a></li>
+					<li><a href="#"><img src="images/share.png" />Share</a></li>
+					<li><a href="#"><img src="images/block.png" />Block</a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+
+		<p class="more"><a href="#">more results from yesterday</a></p>
 	</div>
 
 	</div>
 
 	<div id="search_nav">
 		<ul>
-			<li><a href="#">Today</a></li>
-			<li><a href="#">Yesterday</a></li>
+
+			<li><a href="#header">Today</a></li>
+			<li><a href="#yesterday">Yesterday</a></li>
 			<li><a href="#">Last 7 Days</a></li>
 			<li><a href="#">September</a></li>
 			<li><a href="#">August</a></li>
@@ -87,5 +206,13 @@
 	
 	</div><!-- end footer -->
 </div><!-- end container -->
+
+			<div class="options" id="opt" style="display:none">
+				<ul>
+					<li><a href="#"><img src="images/cached.png" />Cached</a></li>
+					<li><a href="#"><img src="images/share.png" />Share</a></li>
+					<li><a href="#"><img src="images/block.png" />Block</a></li>
+				</ul>
+			</div>
 </body>
 </html>

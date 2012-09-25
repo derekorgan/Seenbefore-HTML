@@ -27,7 +27,7 @@
 
 #search input{
 
-	width: 464px;
+	width: 534px;
 	height: 32px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -36,7 +36,7 @@
 
   	background-image:url('../images/sb_search_icon.png');
   	background-repeat: no-repeat;
-  	background-position: 473px center;
+  	background-position: 543px center;
 
   	padding: 6px 40px 6px 6px;
   	font-size: 28px;
